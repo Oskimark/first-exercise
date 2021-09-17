@@ -1,17 +1,50 @@
 body {
 	background: black;
 }
-* {
-	border: 1px dashed red;
-	min-height: 10px;
-}
+
 .postcard {
 	background: white;
 	width: 400px;
 	height: 300px;
 	margin: auto;
-	
+	font-family: cursive;
 }
 .postcard-header {
 	display: flex;
+}
+* {
+	border: 1px dashed red;
+	min-height: 10px;
+}
+h1 {
+	margin: 0;
+	width: 100%;
+	font-family: cursive;
+}
+
+.body-right {
+	font-size: 120%;
+
+	font-family: cursive;
+}
+.body-left {
+	font-size: 75%;
+
+	font-family: cursive;
+}
+input {
+	font-weight: bold;
+	font-family: cursive;
+	border-top: unset;
+	border-left: unset;
+	border-right: unset;
+	border-bottom: 2px solid gray;
+}
+
+.postcard-body {
+	display: flex;
+}
+.postcard-footer {
+	text-align: center;
+	padding: 10px;
 }
